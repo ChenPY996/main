@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "states": 4704,
+  "runs": 52512,
+  "elapsed_s": 881.1962364999927,
+  "all_states": true,
+  "checks": [
+    "deterministic numeric reproduction except timing",
+    "external common base",
+    "distinct nonoverlapping nominal straight approaches",
+    "quantified first-leg fan-out separation (min angle / min perpendicular offset)",
+    "task ownership conservation",
+    "unique task visits",
+    "monotone per-UAV sweep frontier (increasing or decreasing v)",
+    "no immediate 180-degree reversal",
+    "no repeated executed edge",
+    "planned route metrics",
+    "prefix/hover/event/post-event energy accounting",
+    "actual budget and coverage",
+    "reserved-budget and battery violation audit",
+    "strict potential or objective descent"
+  ],
+  "limitations": [
+    "No inter-UAV collision scheduling or continuous sensor-footprint coverage guarantee.",
+    "Approach nonoverlap is audited for nominal launch segments; dynamic trajectories may cross in space."
+  ]
+}

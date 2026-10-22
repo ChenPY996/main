@@ -1,0 +1,93 @@
+[
+ {
+  "geometry": 3,
+  "uav": 2,
+  "row": 35.7276347954061,
+  "direct": 40.0,
+  "detour": 41.77
+ },
+ {
+  "geometry": 4,
+  "uav": 1,
+  "row": 38.133870587346664,
+  "direct": 30.0,
+  "detour": 31.53
+ },
+ {
+  "geometry": 4,
+  "uav": 2,
+  "row": 43.133870587346664,
+  "direct": 40.0,
+  "detour": 48.3
+ },
+ {
+  "geometry": 4,
+  "uav": 2,
+  "row": 48.133870587346664,
+  "direct": 40.0,
+  "detour": 57.53
+ },
+ {
+  "geometry": 4,
+  "uav": 2,
+  "row": 53.133870587346664,
+  "direct": 40.0,
+  "detour": 67.72
+ },
+ {
+  "geometry": 4,
+  "uav": 2,
+  "row": 58.133870587346664,
+  "direct": 40.0,
+  "detour": 77.49
+ },
+ {
+  "geometry": 4,
+  "uav": 2,
+  "row": 63.133870587346664,
+  "direct": 40.0,
+  "detour": 87.34
+ },
+ {
+  "geometry": 4,
+  "uav": 2,
+  "row": 68.13387058734666,
+  "direct": 40.0,
+  "detour": 97.23
+ },
+ {
+  "geometry": 4,
+  "uav": 3,
+  "row": 73.13387058734666,
+  "direct": 40.0,
+  "detour": 107.16
+ },
+ {
+  "geometry": 4,
+  "uav": 3,
+  "row": 78.13387058734666,
+  "direct": 40.0,
+  "detour": 117.1
+ },
+ {
+  "geometry": 4,
+  "uav": 3,
+  "row": 83.13387058734666,
+  "direct": 40.0,
+  "detour": 127.05
+ },
+ {
+  "geometry": 4,
+  "uav": 3,
+  "row": 88.13387058734666,
+  "direct": 40.0,
+  "detour": 137.01
+ },
+ {
+  "geometry": 6,
+  "uav": 0,
+  "row": 28.938111008092342,
+  "direct": 15.0,
+  "detour": 15.36
+ }
+]

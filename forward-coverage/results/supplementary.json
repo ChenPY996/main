@@ -1,0 +1,408 @@
+{
+ "methods": {
+  "Fixed": {
+   "success": 28.749999999999996,
+   "coverage": 93.91026757943365,
+   "viol_reserve": 76.25,
+   "viol_battery": 73.4375,
+   "fail_with_stop": 100.0,
+   "fail_energy": 100.0,
+   "fail_tiny": 24.269005847953213,
+   "moves": 0.0,
+   "candidates": 0.0,
+   "rejected": 0.0,
+   "plan_med": 0.2529499906813726,
+   "plan_p95": 0.3269150140113197
+  },
+  "BCD": {
+   "success": 9.0625,
+   "coverage": 83.27041398679484,
+   "viol_reserve": 95.0,
+   "viol_battery": 93.54166666666667,
+   "fail_with_stop": 100.0,
+   "fail_energy": 100.0,
+   "fail_tiny": 6.987399770904926,
+   "moves": 0.0,
+   "candidates": 0.0,
+   "rejected": 0.0,
+   "plan_med": 1.4883999829180539,
+   "plan_p95": 2.3720349883660674
+  },
+  "SSI": {
+   "success": 25.104166666666668,
+   "coverage": 89.33491524726207,
+   "viol_reserve": 80.72916666666666,
+   "viol_battery": 77.29166666666667,
+   "fail_with_stop": 100.0,
+   "fail_energy": 100.0,
+   "fail_tiny": 21.41863699582754,
+   "moves": 0.0,
+   "candidates": 112.28333333333333,
+   "rejected": 0.0,
+   "plan_med": 5.073400010587648,
+   "plan_p95": 11.747000002651474
+  },
+  "SSI-E": {
+   "success": 46.145833333333336,
+   "coverage": 96.51603147718123,
+   "viol_reserve": 66.25,
+   "viol_battery": 58.333333333333336,
+   "fail_with_stop": 100.0,
+   "fail_energy": 100.0,
+   "fail_tiny": 48.54932301740813,
+   "moves": 3.825,
+   "candidates": 179.39270833333333,
+   "rejected": 22.828125,
+   "plan_med": 14.223899997887202,
+   "plan_p95": 61.88116000557784
+  },
+  "QAlloc": {
+   "success": 48.95833333333333,
+   "coverage": 96.48213276617538,
+   "viol_reserve": 63.020833333333336,
+   "viol_battery": 57.1875,
+   "fail_with_stop": 100.0,
+   "fail_energy": 100.0,
+   "fail_tiny": 47.55102040816326,
+   "moves": 0.0,
+   "candidates": 0.0,
+   "rejected": 0.0,
+   "plan_med": 72.27454998064786,
+   "plan_p95": 102.37905999820214
+  },
+  "Energy": {
+   "success": 58.64583333333333,
+   "coverage": 97.65552189702976,
+   "viol_reserve": 54.166666666666664,
+   "viol_battery": 46.770833333333336,
+   "fail_with_stop": 100.0,
+   "fail_energy": 100.0,
+   "fail_tiny": 57.17884130982368,
+   "moves": 2.803125,
+   "candidates": 44.1875,
+   "rejected": 11.564583333333333,
+   "plan_med": 11.007799999788404,
+   "plan_p95": 34.523889992851764
+  },
+  "Model": {
+   "success": 60.20833333333333,
+   "coverage": 97.95393121480845,
+   "viol_reserve": 53.85416666666667,
+   "viol_battery": 45.83333333333333,
+   "fail_with_stop": 100.0,
+   "fail_energy": 100.0,
+   "fail_tiny": 63.87434554973822,
+   "moves": 3.2260416666666667,
+   "candidates": 69.975,
+   "rejected": 24.88125,
+   "plan_med": 15.192849998129532,
+   "plan_p95": 40.796209996915415
+  },
+  "CF": {
+   "success": 77.91666666666667,
+   "coverage": 98.81472744224176,
+   "viol_reserve": 31.354166666666668,
+   "viol_battery": 26.666666666666668,
+   "fail_with_stop": 100.0,
+   "fail_energy": 100.0,
+   "fail_tiny": 59.905660377358494,
+   "moves": 3.078125,
+   "candidates": 70.5375,
+   "rejected": 26.588541666666668,
+   "plan_med": 11.84165000449866,
+   "plan_p95": 37.72041999473002
+  },
+  "NoRisk": {
+   "success": 76.25,
+   "coverage": 98.78354254142565,
+   "viol_reserve": 40.729166666666664,
+   "viol_battery": 27.916666666666668,
+   "fail_with_stop": 100.0,
+   "fail_energy": 100.0,
+   "fail_tiny": 64.03508771929825,
+   "moves": 2.9947916666666665,
+   "candidates": 67.2375,
+   "rejected": 25.052083333333332,
+   "plan_med": 10.470649998751469,
+   "plan_p95": 34.4746100148768
+  },
+  "NoComm": {
+   "success": 77.8125,
+   "coverage": 98.78722628263436,
+   "viol_reserve": 35.9375,
+   "viol_battery": 28.4375,
+   "fail_with_stop": 100.0,
+   "fail_energy": 100.0,
+   "fail_tiny": 57.74647887323944,
+   "moves": 2.9916666666666667,
+   "candidates": 67.678125,
+   "rejected": 25.645833333333332,
+   "plan_med": 9.134149993769825,
+   "plan_p95": 25.678645013249476
+  },
+  "NoTurn": {
+   "success": 65.10416666666666,
+   "coverage": 98.40557181073613,
+   "viol_reserve": 57.8125,
+   "viol_battery": 45.0,
+   "fail_with_stop": 100.0,
+   "fail_energy": 100.0,
+   "fail_tiny": 72.23880597014926,
+   "moves": 3.06875,
+   "candidates": 68.275,
+   "rejected": 26.582291666666666,
+   "plan_med": 10.892999998759478,
+   "plan_p95": 34.727629991539274
+  },
+  "NoSplit": {
+   "success": 55.208333333333336,
+   "coverage": 96.97615627040244,
+   "viol_reserve": 57.08333333333333,
+   "viol_battery": 50.208333333333336,
+   "fail_with_stop": 100.0,
+   "fail_energy": 100.0,
+   "fail_tiny": 39.30232558139535,
+   "moves": 0.43333333333333335,
+   "candidates": 4.703125,
+   "rejected": 2.2177083333333334,
+   "plan_med": 2.390549998381175,
+   "plan_p95": 4.507515006116591
+  },
+  "NoSafety": {
+   "success": 73.64583333333333,
+   "coverage": 98.6959721699987,
+   "viol_reserve": 51.354166666666664,
+   "viol_battery": 34.375,
+   "fail_with_stop": 100.0,
+   "fail_energy": 100.0,
+   "fail_tiny": 65.21739130434783,
+   "moves": 2.984375,
+   "candidates": 66.746875,
+   "rejected": 25.05,
+   "plan_med": 9.806450005271472,
+   "plan_p95": 33.4677299921168
+  }
+ },
+ "geometry": {
+  "1": {
+   "success": 78.125,
+   "coverage": 98.89455999343777,
+   "viol_battery": 28.749999999999996,
+   "moves": 2.98125
+  },
+  "2": {
+   "success": 73.125,
+   "coverage": 98.46321221863506,
+   "viol_battery": 29.375,
+   "moves": 2.0
+  },
+  "3": {
+   "success": 78.75,
+   "coverage": 99.09314491475006,
+   "viol_battery": 23.125,
+   "moves": 2.2375
+  },
+  "4": {
+   "success": 81.25,
+   "coverage": 99.19766509186111,
+   "viol_battery": 23.125,
+   "moves": 4.36875
+  },
+  "5": {
+   "success": 85.0,
+   "coverage": 99.28535848930096,
+   "viol_battery": 21.875,
+   "moves": 3.2125
+  },
+  "6": {
+   "success": 71.25,
+   "coverage": 97.95442394546562,
+   "viol_battery": 33.75,
+   "moves": 3.66875
+  }
+ },
+ "risk_gate": {
+  "0.02": {
+   "Model": {
+    "success": 47.22222222222222,
+    "viol_battery": 65.97222222222221
+   },
+   "NoTurn": {
+    "success": 50.69444444444444,
+    "viol_battery": 66.66666666666666
+   },
+   "NoComm": {
+    "success": 65.27777777777779,
+    "viol_battery": 38.19444444444444
+   },
+   "NoRisk": {
+    "success": 68.05555555555556,
+    "viol_battery": 36.80555555555556
+   },
+   "NoSafety": {
+    "success": 69.44444444444444,
+    "viol_battery": 45.13888888888889
+   },
+   "CF": {
+    "success": 65.27777777777779,
+    "viol_battery": 38.19444444444444
+   }
+  },
+  "0.035": {
+   "Model": {
+    "success": 47.91666666666667,
+    "viol_battery": 63.19444444444444
+   },
+   "NoTurn": {
+    "success": 59.02777777777778,
+    "viol_battery": 55.55555555555556
+   },
+   "NoComm": {
+    "success": 69.44444444444444,
+    "viol_battery": 36.80555555555556
+   },
+   "NoRisk": {
+    "success": 67.36111111111111,
+    "viol_battery": 40.27777777777778
+   },
+   "NoSafety": {
+    "success": 67.36111111111111,
+    "viol_battery": 46.52777777777778
+   },
+   "CF": {
+    "success": 68.05555555555556,
+    "viol_battery": 38.19444444444444
+   }
+  },
+  "0.05": {
+   "Model": {
+    "success": 43.75,
+    "viol_battery": 67.36111111111111
+   },
+   "NoTurn": {
+    "success": 61.80555555555556,
+    "viol_battery": 49.30555555555556
+   },
+   "NoComm": {
+    "success": 68.75,
+    "viol_battery": 36.80555555555556
+   },
+   "NoRisk": {
+    "success": 65.97222222222221,
+    "viol_battery": 45.13888888888889
+   },
+   "NoSafety": {
+    "success": 63.19444444444444,
+    "viol_battery": 50.0
+   },
+   "CF": {
+    "success": 65.27777777777779,
+    "viol_battery": 40.97222222222222
+   }
+  },
+  "0.07": {
+   "Model": {
+    "success": 50.0,
+    "viol_battery": 59.72222222222222
+   },
+   "NoTurn": {
+    "success": 64.58333333333334,
+    "viol_battery": 47.22222222222222
+   },
+   "NoComm": {
+    "success": 65.97222222222221,
+    "viol_battery": 39.58333333333333
+   },
+   "NoRisk": {
+    "success": 67.36111111111111,
+    "viol_battery": 44.44444444444444
+   },
+   "NoSafety": {
+    "success": 56.25,
+    "viol_battery": 57.638888888888886
+   },
+   "CF": {
+    "success": 65.27777777777779,
+    "viol_battery": 42.36111111111111
+   }
+  },
+  "0.1": {
+   "Model": {
+    "success": 47.22222222222222,
+    "viol_battery": 60.416666666666664
+   },
+   "NoTurn": {
+    "success": 63.19444444444444,
+    "viol_battery": 48.61111111111111
+   },
+   "NoComm": {
+    "success": 61.80555555555556,
+    "viol_battery": 40.97222222222222
+   },
+   "NoRisk": {
+    "success": 62.5,
+    "viol_battery": 47.22222222222222
+   },
+   "NoSafety": {
+    "success": 48.61111111111111,
+    "viol_battery": 61.80555555555556
+   },
+   "CF": {
+    "success": 59.72222222222222,
+    "viol_battery": 45.13888888888889
+   }
+  },
+  "0.15": {
+   "Model": {
+    "success": 32.63888888888889,
+    "viol_battery": 75.0
+   },
+   "NoTurn": {
+    "success": 59.72222222222222,
+    "viol_battery": 46.52777777777778
+   },
+   "NoComm": {
+    "success": 56.25,
+    "viol_battery": 52.083333333333336
+   },
+   "NoRisk": {
+    "success": 53.47222222222222,
+    "viol_battery": 56.25
+   },
+   "NoSafety": {
+    "success": 47.91666666666667,
+    "viol_battery": 63.19444444444444
+   },
+   "CF": {
+    "success": 52.083333333333336,
+    "viol_battery": 53.47222222222222
+   }
+  },
+  "0.2": {
+   "Model": {
+    "success": 13.194444444444445,
+    "viol_battery": 90.27777777777779
+   },
+   "NoTurn": {
+    "success": 56.94444444444444,
+    "viol_battery": 47.91666666666667
+   },
+   "NoComm": {
+    "success": 45.83333333333333,
+    "viol_battery": 62.5
+   },
+   "NoRisk": {
+    "success": 48.61111111111111,
+    "viol_battery": 63.19444444444444
+   },
+   "NoSafety": {
+    "success": 42.36111111111111,
+    "viol_battery": 67.36111111111111
+   },
+   "CF": {
+    "success": 39.58333333333333,
+    "viol_battery": 68.75
+   }
+  }
+ }
+}

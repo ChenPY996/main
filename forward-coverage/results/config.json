@@ -1,0 +1,68 @@
+{
+  "version": "obstacle_free_fanout_v7_mission_level_potential",
+  "parameters": {
+    "sigma": 0.2,
+    "noise": 0.035,
+    "battery_factor": 0.35,
+    "comm": 0.2,
+    "drift": 0.2,
+    "margin": 0.05,
+    "delta": 0.05,
+    "util_weight": 0.15,
+    "event_fraction": 0.3,
+    "block_size": 6,
+    "battery_budget": 1.6,
+    "battery_basis": "own",
+    "event_trigger": "time",
+    "planner_refine": false,
+    "planner_objective": "sum"
+  },
+  "base_seed": 314159,
+  "methods": [
+    "Fixed",
+    "BCD",
+    "SSI",
+    "SSI-E",
+    "QAlloc",
+    "Energy",
+    "Model",
+    "CF",
+    "NoRisk",
+    "NoComm",
+    "NoTurn",
+    "NoSplit",
+    "NoSafety"
+  ],
+  "instances": 4704,
+  "runs": 52512,
+  "quick": false,
+  "shapes": {
+    "1": "Skew pentagon",
+    "2": "Slender quadrilateral",
+    "3": "L-shaped",
+    "4": "U-shaped",
+    "5": "C-shaped",
+    "6": "Five-arm star"
+  },
+  "events": {
+    "0": "Static",
+    "1": "Battery",
+    "2": "Communication",
+    "3": "Combined",
+    "4": "Mechanism drift"
+  },
+  "flight_rule": "unrestricted obstacle-free airspace; camera off on transfers; per-UAV monotone sweep (increasing or decreasing v, chosen at initial planning); no 180-degree reversal",
+  "planner": "entry-aware whole-row blocks, first-leg separation screen 1 deg",
+  "potential": "Phi = predicted number of uncovered tasks under the risk-adjusted budget (1-margin)B/kappa; fleet-level monotone descent, no per-receiver veto",
+  "search": "candidate blocks from the tail up to unit_pool=6, pick the one that lowers Phi most",
+  "metrics": [
+    "success",
+    "coverage",
+    "energy WAPE",
+    "reserved-budget violation",
+    "battery violation",
+    "safe success",
+    "first-leg fan-out separation"
+  ],
+  "python": "3.10.16 (remotes/origin/14d18b8e2626165312e076b70cf60f0faa8db8d5-dirty:14d18b8e, May 20 2) [MSC v.1942 64 bit (AMD64)]"
+}
