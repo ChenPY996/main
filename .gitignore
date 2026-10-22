@@ -3,6 +3,9 @@ __pycache__/
 *.pyo
 .DS_Store
 Thumbs.db
-out/
-*.egg-info/
 .venv/
+out/
+pilot/
+quick1/
+quick_check/
+*.egg-info/

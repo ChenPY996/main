@@ -1,8 +1,3 @@
-# 基础依赖（通用部分）
-numpy>=1.24
-pandas>=2.0
-Pillow>=10.0
-
-# SITL 部分（sitl/）另需系统级环境，不能由 pip 安装：
-#   ROS2 Humble、rclpy、mavros_msgs、geometry_msgs、sensor_msgs
-#   PX4 v1.16.2 + Gazebo Classic 11.10.2 + MAVROS 2.14.0
+numpy
+scipy
+matplotlib

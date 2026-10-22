@@ -1,9 +1,0 @@
-{
- "final_val": 0.7440000000000001,
- "final_train": 0.92,
- "plateau_episode": 5,
- "n_q": 19,
- "episodes": 96,
- "start_val": 0.748,
- "oracle_ceiling": 1.0
-}
