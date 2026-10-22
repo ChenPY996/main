@@ -28,7 +28,7 @@ forward-coverage/            主实验复现包（对应论文第四节、第五
   figures_prev/, simulation_v5_previous.py
                              作者保留的上一版对照材料（论文未使用，仅备查；
                              上一版 results_prev/ 因体积原因未随仓库发布）
-  SHA256SUMS.txt             原包文件校验和
+  SHA256SUMS.txt             仓库内 forward-coverage 各文件的 SHA-256 校验和
 
 supplementary/               附录 B.2/B.5 的补充材料
   qalloc/                    QAlloc 基线训练环境与学习曲线（图 B.1）
